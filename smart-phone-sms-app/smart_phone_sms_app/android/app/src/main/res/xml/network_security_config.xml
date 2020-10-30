@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!--<debug-overrides>
+        <trust-anchors>
+            <certificates src="@raw/debug_cas"/>
+        </trust-anchors>
+    </debug-overrides>-->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">houkunlin.com</domain>
+        <domain includeSubdomains="true">houkunlin.cn</domain>
+        <domain includeSubdomains="true">hkl1.houkunlin.com</domain>
+        <domain includeSubdomains="true">hkl1.houkunlin.cn</domain>
+    </domain-config>
+</network-security-config>
